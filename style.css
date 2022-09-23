@@ -1,0 +1,122 @@
+body {
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Press Start 2P', cursive;
+    color: #F6F2F6;
+  
+    background-color: #F6F2F6;
+  }
+
+  img {
+    width: 78%;
+    padding: 1%;
+  }
+
+  .menu ul {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+  }
+
+  .menu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+    text-align: left;
+  }
+
+  .menu {
+    background-color: #1C252C;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: normal;
+    color: #F6F2F6;
+    padding: 1%;
+    background-color: #1C252C;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #1C252C;
+    line-height: normal;
+    margin-left: 5%;
+  }
+  
+  a {
+    color: #58545B;
+    text-decoration: underline;
+  }
+  
+  .navigation {
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 350px;
+  
+    background-color: #E1D5D9;
+    border: 5px solid #1C252C;
+  
+    color: #1C252C;
+  }
+  
+  .blog-navigation h2 {
+    margin-top: 0;
+  }
+  
+  .blog-navigation ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .blog-navigation li {
+    margin-bottom: 5px;
+  }
+  
+  .blog-navigation a {
+    color: #E1D5D9;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: #1C252C;
+    padding: 10px;
+  }
+  
+  p {
+    background-color: #B7A7AE;
+    padding: 1.1%;
+    color: #F6F2F6;
+    border: 5px solid #58545B;
+  }
+
+  section{
+    width: 80%;
+  }
+
+  table.pricelist {
+    background-color: #B7A7AE;
+    border: 5px solid #58545B;
+  }
+
+.pricelist td, th {
+      padding: 5px;
+      text-align: left;
+      border: 1px solid #58545B;
+    }
+
+  caption {
+    color: #1C252C;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5%;
+  }
+  .contacts {
+    margin: 0 0 20px 20px;
+  }
+
+  .contacts a{
+    color: #B7A7AE;
+  }
